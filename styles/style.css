@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+#navbar {
+  padding: 1rem 0;
+}
+
+#navbar .logo {
+  width: 15%;
+}
+
+#main-container {
+  margin: 2rem 0 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#main-container .photograph {
+  width: 60%;
+  text-align: center;
+}
+
+#main-container .photograph img {
+  width: 90%;
+}
+
+#main-container .content-box {
+  width: 37%;
+}
+
+#main-container .content-box h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+#main-container .content-box p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+footer {
+  width: 100%;
+  position: relative;
+}
+
+footer .social-links {
+  position: absolute;
+  right: 4%;
+}
+
+footer .social-links .icon i {
+  color: #f1f1f1;
+  font-size: 1rem;
+  border: 2px solid #f1f1f1;
+  border-radius: 50%;
+  padding: 0.34rem 0.5rem;
+  margin: 0 0.3rem;
+  cursor: pointer;
+}
+
+footer .social-links .icon i:hover {
+  color: #e882e8;
+  border: 2px solid #e882e8;
+}
+
+body {
+  background-image: url(../images/bg-desktop.svg);
+  background-position: center;
+  background-size: cover;
+  background-clip: border-box;
+  font-family: "Open Sans", sans-serif;
+  background-color: #674baf;
+  padding: 0.5rem 2rem;
+  color: #f1f1f1;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  padding: 0.8rem 0.7rem;
+  color: #674baf;
+  font-weight: 500;
+  background-color: #f1f1f1;
+  -webkit-box-shadow: 0 3px 8px #3b3b3b;
+          box-shadow: 0 3px 8px #3b3b3b;
+  border: 0;
+  border-radius: 40px;
+  width: 35%;
+}
+
+button:hover {
+  background-color: #e882e8;
+  color: #f1f1f1;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
