@@ -1,6 +1,15 @@
 #navbar {
-  padding: 1rem 0;
-  .logo {
-    width: 15%;
+  @media (min-width: 1440px) {
+    padding: 1rem;
+    .logo {
+      width: 10%;
+    }
+  }
+
+  @media (min-width: 375px) and (max-width: 1440px) {
+    padding: 0.5rem 0;
+    .logo {
+      width: 50%;
+    }
   }
 }

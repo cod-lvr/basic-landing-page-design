@@ -1,0 +1,42 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: $Violet;
+  color: $text-color;
+  @media (min-width: 375px) and (max-width: 1440px) {
+    padding: 0 1.8rem;
+    background-image: url(../images/bg-mobile.svg);
+    background-position: 45% 55%;
+    background-size: cover;
+    background-clip: border-box;
+  }
+  @media (min-width: 1440px) {
+    background-image: url(../images/bg-desktop.svg);
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+    padding: 0.5rem 2rem;
+  }
+}
+img {
+  width: 100%;
+}
+button {
+  padding: 0.8rem 0.7rem;
+  color: $Violet;
+  font-weight: 500;
+  background-color: $text-color;
+  box-shadow: 0 3px 8px rgb(59, 59, 59);
+  border: 0;
+  border-radius: 40px;
+  @media (min-width: 1440px) {
+    width: 35%;
+  }
+  @media (min-width: 375px) and (max-width: 1440px) {
+    width: 75%;
+  }
+  &:hover {
+    background-color: $Soft;
+    color: $text-color;
+    cursor: pointer;
+  }
+}

@@ -1,9 +1,5 @@
 footer {
-  width: 100%;
-  position: relative;
   .social-links {
-    position: absolute;
-    right: 4%;
     .icon {
       i {
         color: $text-color;
@@ -19,5 +15,20 @@ footer {
         }
       }
     }
+  }
+  @media (min-width: 1440px) {
+    width: 100%;
+    position: relative;
+    .social-links {
+      position: absolute;
+      right: 4%;
+    }
+  }
+  @media (min-width: 375px) and (max-width: 1440px) {
+    position: relative;
+    margin: 1rem auto;
+    display: block;
+    width: 100%;
+    text-align: center;
   }
 }
